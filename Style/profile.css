@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  content: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary);
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Primary */
+  --primary-950: hsl(346, 97%, 76%);
+  --primary-900: hsl(346, 97%, 46%);
+  --primary-800: hsl(346, 97%, 41%);
+  --primary-700: hsl(346, 97%, 36%);
+  --primary-600: hsl(346, 97%, 31%);
+  --primary: hsla(346, 97%, 26%);
+  --primary-400: hsl(346, 97%, 21%);
+  --primary-300: hsl(346, 97%, 16%);
+  --primary-200: hsl(346, 97%, 11%);
+  --primary-100: hsl(346, 97%, 6%);
+  /* Secondary */
+  --secondary-900: hsl(47, 100%, 97%);
+  --secondary-800: hsl(47, 100%, 87%);
+  --secondary-700: hsl(47, 100%, 77%);
+  --secondary: hsl(47, 100%, 67%);
+  --secondary-500: hsl(47, 100%, 57%);
+  --secondary-400: hsl(47, 100%, 47%);
+  --secondary-300: hsl(47, 100%, 37%);
+  --secondary-200: hsl(47, 100%, 27%);
+  --secondary-100: hsl(47, 100%, 27%);
+
+  /* Neutral */
+  --neutral-white: hsl(0, 0%, 95%);
+  --neutral-white-400: hsl(0, 0%, 85%);
+  --neutral-white-300: hsl(0, 0%, 75%);
+  --neutral-white-200: hsl(0, 0%, 65%);
+
+  --neutral-black: hsl(0, 0%, 5%);
+}
+/* start */
+body{
+    background-color: var(--secondary);
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: hsl(344, 87%, 11%);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--secondary);
+  text-shadow: 0.07rem 0.07rem 0rem var(--neutral-black);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    margin-top: 6rem;
+  margin-left: 8rem;
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+section{
+    width: 50%;
+    background-color: var(--neutral-white);
+    margin: 2rem;
+    padding: 2rem;
+}
+.profile-image{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+}
+hr{
+    margin: 2rem 0;
+    border: .1rem solid var(--neutral-white-400);
+}
+@media screen and (max-width: 768px){
+  section{
+    width: 70%;
+  }
+  .arrow{
+    margin-top: 6rem;
+    margin-left: 4rem;
+  }
+}
+@media screen and (max-width: 480px){
+  section{
+    width: 80%;
+  }
+  .profile-image{
+    width: 12rem;
+    height: 12rem;
+  }
+}
+.head-title{
+  font-size: 2rem;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foods>
+    <meals>
+        
+        
+        
+        
+        
+        
+    <Burger><name>Sushi</name><price>100</price><description>Japanese Sushi</description><id>fgzny</id><image>sushi.jpg</image></Burger><Steak><name>Steak</name><price>799.00</price><description>A5 wagyu steak</description><id>rpoth</id><image>mealBG.jpg</image></Steak></meals>
+    <snacks>
+        
+        
+        
+        
+    <Nutsy><name>Burger</name><price>5.99</price><description>Delicious yum burger </description><id>snack-4</id><image>burger.jpg</image></Nutsy><Pizza><name>Pizza</name><price>12.99</price><description>Hawaiian Pizza</description><id>jsvpo</id><image>snackBG.jpg</image></Pizza><Sandwich><name>Sandwich </name><price>6.99</price><description>Sandwich ni Thomas</description><id>yhljf</id><image>sandwich.jpg</image></Sandwich><Bananacue><name>Bananacue</name><price>15.00</price><description>Sweetened banana</description><id>buyer</id><image>cookies.jpg</image></Bananacue></snacks>
+    <beverages>
+        
+        
+        <water>
+            <id>beverage-2</id>
+            <name>Water</name>
+            <price>0.99</price>
+            <description>Pure and refreshing water for hydration.</description>
+            <image>water.jpg</image>
+        </water>
+        
+        
+        
+    <Soda><name>Soda</name><price>15.00</price><description>Mountain Jews</description><id>oxcvj</id><image>soda.jpg</image></Soda><Juice><name>Juice</name><price>20.99</price><description>jusi pruwit</description><id>inrvo</id><image>juice.jpg</image></Juice></beverages>
+    <sweets>
+        
+        
+        
+        
+        
+    <Cake><name>Cake</name><price>900</price><description>Goldilocks Cake </description><id>tbxwv</id><image>sweetBG.jpg</image></Cake><Gummies><name>Gummies</name><price>1.99</price><description>Sweet gummy strips</description><id>wqvld</id><image>jummy strips.jpg</image></Gummies><Chocolates><name>Chocolates</name><price>1.99</price><description>Sweet chocolates</description><id>vcabg</id><image>chocolate.jpg</image></Chocolates></sweets>
+</foods>
